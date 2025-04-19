@@ -9,3 +9,8 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+# Ignore files that might contain sensitive tokens
+*.env
+.env
+*.token
+*.key
